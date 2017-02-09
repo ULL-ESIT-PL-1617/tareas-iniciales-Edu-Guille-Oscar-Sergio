@@ -1,0 +1,19 @@
+{
+  "name": "tareas-iniciales-edu-guille-oscar-sergio",
+  "version": "1.0.0",
+  "description": "Tareas iniciales.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ULL-ESIT-PL-1617/tareas-iniciales-Edu-Guille-Oscar-Sergio.git"
+  },
+  "author": "alu0100881677,alu0100892833,alu0100892260,alu0100893267",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ULL-ESIT-PL-1617/tareas-iniciales-Edu-Guille-Oscar-Sergio/issues"
+  },
+  "homepage": "https://github.com/ULL-ESIT-PL-1617/tareas-iniciales-Edu-Guille-Oscar-Sergio#readme"
+}

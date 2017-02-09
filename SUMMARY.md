@@ -2,9 +2,9 @@
 
 ### Capítulos  
 
-* [Capítulo 1: GitBook](gitbook.md)  
-* [Capítulo 2: gh-pages](gh-pages.md)
-* [Capítulo 3: MarkDown](markdown.md)
-* [Capítulo 4: Git](git.md)
-* [Capítulo 5: NodeJS](nodejs.md)
-* [Capítulo 6: Pandoc](pandoc.md)
+* [Capítulo 1: GitBook](Tutorial/GitBook/gitbook.md)  
+* [Capítulo 2: gh-pages](Tutorial/gh-pages/gh-pages.md)
+* [Capítulo 3: MarkDown](Tutorial/MarkDown/markdown.md)
+* [Capítulo 4: Git](Tutorial/Git/git.md)
+* [Capítulo 5: NodeJS](Tutorial/NodeJS/nodejs.md)
+* [Capítulo 6: Pandoc](Tutorial/Pandoc/pandoc.md)
