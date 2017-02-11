@@ -33,7 +33,37 @@ En el caso de las páginas para proyectos, se puede configurar GitHub Pages para
 2. En la pestaña de opciones, hacemos _scroll_ hacia abajo hasta la sección _GitHub Pages_. 
 3. En el menú desplegable _Source_, seleccionamos una de las tres opciones: tomar la rama _master_, la rama _gh-pages_, o el directorio _/doc_. 
 
-Es importante tener en cuenta que, para que cada una de esas opciones esté disponible, habrá que tener una rama _master_ o _gh-pages_ creada, o 
+Es importante tener en cuenta que, para que cada una de esas opciones esté disponible, habrá que tener una rama _master_ o _gh-pages_ creada, o un directorio _/doc_ bajo la rama master. Una vez hecho esto, el sitio web pasará a estar disponible bajo la dirección:
+
+```
+repository.github.io
+```
+
+---
+
+### DOMINIOS PERSONALIZADOS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
