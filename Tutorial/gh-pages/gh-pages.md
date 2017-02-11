@@ -1,10 +1,10 @@
-# LAS GH-PAGES
+# LAS GITHUB PAGES
 
 Las GitHub Pages, conocidas también como las gh-pages, son una herramienta que la plataforma GitHub ofrece a los desarrolladores. Se trata de un servicio estático de hosting para páginas webs, diseñado para alojar páginas personales, de organizaciones o de proyectos directamente en un repositorio de GitHub. Es ideal para sitios informativos con un funcionamiento básico, pero no para sitios web más complejos puesto que no soporta la ejecución de código en el lado del servidor; lenguajes como PHP, Ruby o Python son inservibles.
 
 Los sitios alojados en GitHub Pages se asocian con el dominio _.github.io_ y utilizan el protocolo HTTPS.
 
-
+---
 
 ### PARA USUARIOS Y ORGANIZACIONES
 
@@ -23,9 +23,17 @@ Los pasos para la creación de la página, utilizando la terminal, serían los s
 
 Seguidos estos cuatro pasos, el sitio web debería estar disponible después de algunos segundos. Simplemente abrimos un navegador e introducimos la dirección de la página, que se corresponde con el nombre que le dimos al repositorio. Es importante saber que el contenido debe estar en la rama master: en las páginas para usuarios y organizaciones el código fuente HTML5 no puede situarse en ninguna otra localización.
 
-
+---
 
 ### PARA PROYECTOS
 
-En el caso de las páginas para proyectos, se puede configurar GitHub Pages para que publique el sitio web en base a los ficheros fuente HTML5 situados en la rama
+En el caso de las páginas para proyectos, se puede configurar GitHub Pages para que publique el sitio web en base a los ficheros fuente HTML5 situados en la rama _master_, _gh-pages_, o de un directorio _/docs_ en la rama master. Para hacer esto, seguimos los siguientes pasos:
+
+1. Vamos a los ajustes de nuestro repositorio.
+2. En la pestaña de opciones, hacemos _scroll_ hacia abajo hasta la sección _GitHub Pages_. 
+3. En el menú desplegable _Source_, seleccionamos una de las tres opciones: tomar la rama _master_, la rama _gh-pages_, o el directorio _/doc_. 
+
+Es importante tener en cuenta que, para que cada una de esas opciones esté disponible, habrá que tener una rama _master_ o _gh-pages_ creada, o 
+
+
 
