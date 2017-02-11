@@ -11,7 +11,7 @@ Los sitios alojados en GitHub Pages se asocian con el dominio _.github.io_ y uti
 Las páginas orientadas a la representación de usuarios y organizaciones se alojan en un repositorio específico dedicado a sus archivos. Estos repositorios deberán llamarse con el nombre de usuario \(o de la organización\) de la siguiente manera:
 
 ```
-username.github.io --- organizationName.github.io
+username.github.io --- organizationame.github.io
 ```
 
 Los pasos para la creación de la página, utilizando la terminal, serían los siguientes:
@@ -27,7 +27,7 @@ Seguidos estos cuatro pasos, el sitio web debería estar disponible después de 
 
 ### PARA PROYECTOS
 
-En el caso de las páginas para proyectos, se puede configurar GitHub Pages para que publique el sitio web en base a los ficheros fuente HTML5 situados en la rama _master_, _gh-pages_, o de un directorio _/docs_ en la rama master. Para hacer esto, seguimos los siguientes pasos:
+A diferencia de los sitios web para usuarios y organizaciones, los sitios orientados a los proyectos alojan su código fuente en el mismo repositorio que el del proyecto. Se puede configurar GitHub Pages para que publique el sitio web en base a los ficheros fuente HTML5 situados en la rama _master_, _gh-pages_, o de un directorio _/docs_ en la rama master. Para hacer esto, seguimos los siguientes pasos:
 
 1. Vamos a los ajustes de nuestro repositorio.
 2. En la pestaña de opciones, hacemos _scroll_ hacia abajo hasta la sección _GitHub Pages_. 
@@ -36,26 +36,12 @@ En el caso de las páginas para proyectos, se puede configurar GitHub Pages para
 Es importante tener en cuenta que, para que cada una de esas opciones esté disponible, habrá que tener una rama _master_ o _gh-pages_ creada, o un directorio _/doc_ bajo la rama master. Una vez hecho esto, el sitio web pasará a estar disponible bajo la dirección:
 
 ```
-repository.github.io
+https://username.github.io/projectname --- https://organizationame.github.io/projectname
 ```
 
 ---
 
 ### DOMINIOS PERSONALIZADOS
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
