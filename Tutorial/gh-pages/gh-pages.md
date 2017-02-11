@@ -43,6 +43,14 @@ https://username.github.io/projectname --- https://organizationame.github.io/pro
 
 ### GITHUB PAGES Y JEKYLL
 
+Además de soportar código tradicional HTML5, GitHub Pages está profundamente integrado con Jekyll, un generador de sitios web muy popular diseñado para la creación de blogs y documentación de software, aunque se puede utilizar con muchos más fines. 
+
+La integración entre estos dos servicios nos permite seleccionar una plantilla de Jekyll para darle estilo a el sitio web de nuestro usuario, organización o proyecto. 
+
+
+
+
+
 
 
 
