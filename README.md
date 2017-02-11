@@ -1,7 +1,6 @@
 # Tareas iniciales
 
 ## Descripción del proyecto
-En esta primera práctica lo que vamos a hacer es la explicación de cómo hemos configurado los equipos.
 
 
 
