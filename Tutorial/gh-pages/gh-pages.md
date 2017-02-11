@@ -2,11 +2,11 @@
 
 Las GitHub Pages, conocidas también como las gh-pages, son una herramienta que la plataforma GitHub ofrece a los desarrolladores. Se trata de un servicio estático de hosting para páginas webs, diseñado para alojar páginas personales, de organizaciones o de proyectos directamente en un repositorio de GitHub. Es ideal para sitios informativos con un funcionamiento básico, pero no para sitios web más complejos puesto que no soporta la ejecución de código en el lado del servidor; lenguajes como PHP, Ruby o Python son inservibles.
 
-Los sitios alojados en GitHub Pages se asocian con el dominio _.github.io_ y utilizan el protocolo HTTPS. 
+Los sitios alojados en GitHub Pages se asocian con el dominio _.github.io_ y utilizan el protocolo HTTPS.
 
 
 
-## PARA USUARIOS Y ORGANIZACIONES
+### PARA USUARIOS Y ORGANIZACIONES
 
 Las páginas orientadas a la representación de usuarios y organizaciones se alojan en un repositorio específico dedicado a sus archivos. Estos repositorios deberán llamarse con el nombre de usuario \(o de la organización\) de la siguiente manera:
 
@@ -25,7 +25,7 @@ Seguidos estos cuatro pasos, el sitio web debería estar disponible después de 
 
 
 
-## PARA PROYECTOS
+### PARA PROYECTOS
 
-En el caso de las páginas para proyectos, se puede configurar GitHub Pages para que publique el sitio web en base a los ficheros fuente HTML5 situados en la rama 
+En el caso de las páginas para proyectos, se puede configurar GitHub Pages para que publique el sitio web en base a los ficheros fuente HTML5 situados en la rama
 
