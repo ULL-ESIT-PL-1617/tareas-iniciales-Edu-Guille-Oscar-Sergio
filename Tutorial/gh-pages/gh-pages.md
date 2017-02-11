@@ -41,23 +41,7 @@ https://username.github.io/projectname --- https://organizationame.github.io/pro
 
 ---
 
-### DOMINIOS PERSONALIZADOS
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### GITHUB PAGES Y JEKYLL
 
 
 
