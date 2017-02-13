@@ -8,9 +8,9 @@ A continuación vamos a introducir una serie de ejemplos para conocer la sintaxi
 
 ```
       # Encabezado de tipo h1.
-      
+
       ## Encabezado de tipo h2.
-      
+
       ### Encabezado de tipo h3.
 
       #### Encabezado de tipo h4.
@@ -21,6 +21,8 @@ A continuación vamos a introducir una serie de ejemplos para conocer la sintaxi
 ```
 
 \(Las \ se deben omitir realmente\).
+
+
 
 También se puede introducir citas añadiento antes del texto un &gt;.
 
