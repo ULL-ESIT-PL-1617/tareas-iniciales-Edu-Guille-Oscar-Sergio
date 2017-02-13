@@ -34,8 +34,8 @@ A continuación vamos a introducir una serie de ejemplos para conocer la sintaxi
 
 * Ordenadas:
 
-  * 1. Primer elemento de la lista ordenada.
-  * 2. Otro elemento de la lista ordenada.
+  * 1.Primer elemento de la lista ordenada.
+  * 2.Otro elemento de la lista ordenada.
 
 ###### Enlaces
 
