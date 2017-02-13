@@ -17,7 +17,7 @@ A continuación vamos a introducir una serie de ejemplos para conocer la sintaxi
 
 ###### Citas
 
-&gt; Esto es una cita. -Sergio García
+&gt;Esto es una cita. -Sergio García
 
 ###### Texto con énfasis
 
@@ -39,7 +39,7 @@ A continuación vamos a introducir una serie de ejemplos para conocer la sintaxi
 
 ###### Enlaces
 
-\[ Texto del enlace aquí \] \(URL "Título del enlace"\).
+ \[ Texto del enlace aquí \] \(URL "Título del enlace"\).
 
 ###### Imágenes
 
