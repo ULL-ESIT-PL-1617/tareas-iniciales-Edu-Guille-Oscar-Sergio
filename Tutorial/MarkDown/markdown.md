@@ -62,17 +62,19 @@ En caso de que se desee organizar diferentes elementos se puede utilizar tanto l
 
 Si lo que queremos en que desde nuestro libro podamos redireccionar a otros lugares, deberemos introducir enlaces.
 
-[Google](www.google.es)                                                                               \[ Texto del enlace aquí \] \(URL "Título del enlace"\).
+[Google](www.google.es)                                                                                                \[ Texto del enlace aquí \] \(URL "Título del enlace"\).
 
 ---
 
 ###### Imágenes
 
-Para introducir imágenes desde nuestro libro se sigue la siguiente sintaxis
+Para introducir imágenes desde nuestro libro se sigue la siguiente sintaxis:     !\[ Texto alternativo \] \(URL "Título del enlace"\).
 
-                                                                                                           !\[ Texto alternativo \] \(URL "Título del enlace"\).
+![](http://jr0cket.co.uk/images/gitbook-logo.png) 
 
-###### 
+
+
+
 
 
 
