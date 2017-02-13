@@ -21,6 +21,8 @@ A continuación vamos a introducir una serie de ejemplos para conocer la sintaxi
 
 \(Las \ se deben omitir realmente\).
 
+
+
 También se puede introducir citas añadiento antes del texto un &gt;.
 
 > Esto es una cita. -Sergio García
@@ -29,9 +31,13 @@ También se puede introducir citas añadiento antes del texto un &gt;.
 
 Algo que se puede hacer y es muy interesante en caso de que queramos resaltar una palabra o una frase es ponerlo en cursiva \(\* Texto en medio \*\) o en negrita \(\*\* Texto en medio \*\*\).
 
+
+
 _Cursiva  _\(\*Cursiva\*\)
 
 **Negrita **\(\*\*Negrita\*\*\)
+
+
 
 En caso de que se desee organizar diferentes elementos se puede utilizar tanto las listas ordenadas como las no ordenadas. La sintaxis de las listas no ordenadas sería ir añadiendo un '\*' al principio de cada elemento que queramos introudir en la lista, mientras que para una lista ordenadas hay que añadir un 'x.' al principio de cada elemento, donde cada x es el número del elemento dentro de esa lista.
 
@@ -43,7 +49,7 @@ En caso de que se desee organizar diferentes elementos se puede utilizar tanto l
 
 * Otro elemento de la lista no ordenada                                    \(\* Otro elemento de la lista no ordenada\)
 
-
+###### 
 
 ###### Ejemplo de una lista ordenada
 
