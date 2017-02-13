@@ -21,8 +21,6 @@ A continuación vamos a introducir una serie de ejemplos para conocer la sintaxi
 
 \(Las \ se deben omitir realmente\).
 
-
-
 También se puede introducir citas añadiento antes del texto un &gt;.
 
 > Esto es una cita. -Sergio García
@@ -33,7 +31,7 @@ Algo que se puede hacer y es muy interesante en caso de que queramos resaltar un
 
 \*Cursiva\*
 
-\*\*Negrita\*\*
+\*\* Negrita \*\*
 
 ###### Listas
 
