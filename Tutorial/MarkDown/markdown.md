@@ -6,17 +6,21 @@ El Markdown es un lenguaje de marcado ligero \(tipo de formateo de texto más o 
 
 A continuación vamos a introducir una serie de ejemplos para conocer la sintaxis de este lenguaje. Para empezar vamos a introducir los tipos de encabezados que hay.
 
-          \# Encabezado de tipo h1.
+```
+      \# Encabezado de tipo h1.
 
-          \#\# Encabezado de tipo h2.
+      \#\# Encabezado de tipo h2.
 
-          \#\#\# Encabezado de tipo h3.
+      \#\#\# Encabezado de tipo h3.
 
-          \#\#\#\# Encabezado de tipo h4.
+      \#\#\#\# Encabezado de tipo h4.
 
-          \#\#\#\#\# Encabezado de tipo h5.
+      \#\#\#\#\# Encabezado de tipo h5.
 
-          \#\#\#\#\#\# Encabezado de tipo h6.
+      \#\#\#\#\#\# Encabezado de tipo h6.
+```
+
+\(Las \ se deben omitir realmente\).
 
 ###### Citas
 
