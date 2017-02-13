@@ -33,18 +33,19 @@ _Cursiva  _\(\*Cursiva\*\)
 
 **Negrita **\(\*\*Negrita\*\*\)
 
-
-
 En caso de que se desee organizar diferentes elementos se puede utilizar tanto las listas ordenadas como las no ordenadas. La sintaxis de las listas no ordenadas sería ir añadiendo un '\*' al principio de cada elemento que queramos introudir en la lista, mientras que para una lista ordenadas hay que añadir un 'x.' al principio de cada elemento, donde cada x es el número del elemento dentro de esa lista.
 
-* Esto es el primer elemento de la lista no ordenada   \(\* Esto es el primer elemento de la lista no ordenada\)
+* Esto es el primer elemento de la lista no ordenada               \(\* Esto es el primer elemento de la lista no ordenada\)
 
-* Otro elemento de la lista no ordenada                         \(\* Otro elemento de la lista no ordenada\)
+* Otro elemento de la lista no ordenada                                    \(\* Otro elemento de la lista no ordenada\)
 
-* Ordenadas:
 
-  * 1.Primer elemento de la lista ordenada.
-  * 2.Otro elemento de la lista ordenada.
+
+1. Primer elemento de la lista ordenada.
+
+2. Segundo elemento de la lista ordenada.
+
+###### 
 
 ###### Enlaces
 
