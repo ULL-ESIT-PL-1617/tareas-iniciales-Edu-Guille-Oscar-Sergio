@@ -22,6 +22,8 @@ A continuación vamos a introducir una serie de ejemplos para conocer la sintaxi
 
 \(Las \ se deben omitir realmente\).
 
+---
+
 También se puede introducir citas añadiento antes del texto un &gt;.
 
 > Esto es una cita. -Sergio García
@@ -61,8 +63,6 @@ En caso de que se desee organizar diferentes elementos se puede utilizar tanto l
 ###### Enlaces
 
 Si lo que queremos en que desde nuestro libro podamos redireccionar a otros lugares, deberemos introducir enlaces.
-
-
 
 [Google](www.google.es)                                                                                                \[ Texto del enlace aquí \] \(URL "Título del enlace"\).
 
