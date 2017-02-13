@@ -4,16 +4,19 @@ El Markdown es un lenguaje de marcado ligero \(tipo de formateo de texto más o 
 
 ### Ejemplos de Sintaxis
 
-A continuación vamos a introducir una serie de ejemplos para conocer la sintaxis de este lenguaje:
+A continuación vamos a introducir una serie de ejemplos para conocer la sintaxis de este lenguaje. Para empezar vamos a introducir los tipos de encabezados que hay.
 
-###### **Encabezados**
+          \# Encabezado de tipo h1.
 
-* \# Encabezado de tipo h1.
-* \#\# Encabezado de tipo h2.
-* \#\#\# Encabezado de tipo h3.
-* \#\#\#\# Encabezado de tipo h4.
-* \#\#\#\#\# Encabezado de tipo h5.
-* \#\#\#\#\#\# Encabezado de tipo h6.
+          \#\# Encabezado de tipo h2.
+
+          \#\#\# Encabezado de tipo h3.
+
+          \#\#\#\# Encabezado de tipo h4.
+
+          \#\#\#\#\# Encabezado de tipo h5.
+
+          \#\#\#\#\#\# Encabezado de tipo h6.
 
 ###### Citas
 
@@ -39,7 +42,7 @@ A continuación vamos a introducir una serie de ejemplos para conocer la sintaxi
 
 ###### Enlaces
 
- \[ Texto del enlace aquí \] \(URL "Título del enlace"\).
+\[ Texto del enlace aquí \] \(URL "Título del enlace"\).
 
 ###### Imágenes
 
