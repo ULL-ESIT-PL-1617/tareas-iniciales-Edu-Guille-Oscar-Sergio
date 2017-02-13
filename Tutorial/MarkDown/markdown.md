@@ -21,8 +21,8 @@ A continuación vamos a introducir una serie de ejemplos para conocer la sintaxi
 
 ###### Texto con énfasis
 
-* \*Cursiva\* : Lo muestra de tipo cursivo.
-* \*\*Negrita\*\* : Lo muestra en negrita.
+* \*Cursiva\*: Lo muestra de tipo cursivo.
+* \*\*Negrita\*\*: Lo muestra en negrita.
 
 ###### Listas
 
