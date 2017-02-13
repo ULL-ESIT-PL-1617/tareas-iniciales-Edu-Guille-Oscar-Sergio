@@ -62,7 +62,7 @@ En caso de que se desee organizar diferentes elementos se puede utilizar tanto l
 
 \[ Texto del enlace aquí \] \(URL "Título del enlace"\).
 
-###### 
+###### ---
 
 ###### Imágenes
 
