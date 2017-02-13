@@ -62,13 +62,13 @@ En caso de que se desee organizar diferentes elementos se puede utilizar tanto l
 
 Si lo que queremos en que desde nuestro libro podamos redireccionar a otros lugares, deberemos introducir enlaces.
 
-
-
 \[ Texto del enlace aquí \] \(URL "Título del enlace"\).
 
 ---
 
 ###### Imágenes
+
+Para introducir imágenes desde nuestro libro se sigue la siguiente sintaxis
 
 !\[ Texto alternativo \] \(URL "Título del enlace"\).
 
