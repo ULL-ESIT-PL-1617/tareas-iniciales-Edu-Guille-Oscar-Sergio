@@ -41,9 +41,7 @@ En caso de que se desee organizar diferentes elementos se puede utilizar tanto l
 
 * Otro elemento de la lista no ordenada                                    \(\* Otro elemento de la lista no ordenada\)
 
-###### \* Hola
-
-
+###### 
 
 ###### Ejemplo de una lista ordenada
 
