@@ -9,7 +9,6 @@ A continuación vamos a introducir una serie de ejemplos para conocer la sintaxi
 ```
       \# Encabezado de tipo h1.
 
-      \#\# Encabezado de tipo h2.
 
       \#\#\# Encabezado de tipo h3.
 
@@ -22,14 +21,19 @@ A continuación vamos a introducir una serie de ejemplos para conocer la sintaxi
 
 \(Las \ se deben omitir realmente\).
 
-###### Citas
 
-&gt;Esto es una cita. -Sergio García
 
-###### Texto con énfasis
+También se puede introducir citas añadiento antes del texto un &gt;.
 
-* \*Cursiva\*: Lo muestra de tipo cursivo.
-* \*\*Negrita\*\*: Lo muestra en negrita.
+> Esto es una cita. -Sergio García
+
+###### 
+
+Algo que se puede hacer y es muy interesante en caso de que queramos resaltar una palabra o una frase es ponerlo en cursiva \(\* Texto en medio \*\) o en negrita \(\*\* Texto en medio \*\*\).
+
+\*Cursiva\*
+
+\*\*Negrita\*\*
 
 ###### Listas
 
