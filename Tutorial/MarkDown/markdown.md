@@ -41,9 +41,9 @@ En caso de que se desee organizar diferentes elementos se puede utilizar tanto l
 
 
 
-1. Primer elemento de la lista ordenada.
+1. Primer elemento de la lista ordenada.                                    \(1. Primer elemento de la lista ordenada\)
 
-2. Segundo elemento de la lista ordenada.
+2. Segundo elemento de la lista ordenada.                                \(2. Segundo elemento de la lista ordenada\)
 
 ###### 
 
