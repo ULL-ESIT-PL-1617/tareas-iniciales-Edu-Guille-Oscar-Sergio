@@ -31,15 +31,15 @@ Algo que se puede hacer y es muy interesante en caso de que queramos resaltar un
 
 _Cursiva  _\(\*Cursiva\*\)
 
-**Negrita \(\*\*Negrita\*\*\)**
+**Negrita **\(\*\*Negrita\*\*\)
 
-###### Listas
 
-* No ordenadas:
 
-  * \* Primer elemento de la lista
+En caso de que se desee organizar diferentes elementos se puede utilizar tanto las listas ordenadas como las no ordenadas. La sintaxis de las listas no ordenadas sería ir añadiendo un '\*' al principio de cada elemento que queramos introudir en la lista, mientras que para una lista ordenadas hay que añadir un 'x.' al principio de cada elemento, donde cada x es el número del elemento dentro de esa lista.
 
-  * \* Otro elemento de la lista
+* Esto es el primer elemento de la lista no ordenada   \(\* Esto es el primer elemento de la lista no ordenada\)
+
+* Otro elemento de la lista no ordenada                         \(\* Otro elemento de la lista no ordenada\)
 
 * Ordenadas:
 
