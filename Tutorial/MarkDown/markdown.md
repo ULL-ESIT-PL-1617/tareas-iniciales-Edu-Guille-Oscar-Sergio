@@ -7,16 +7,17 @@ El Markdown es un lenguaje de marcado ligero \(tipo de formateo de texto más o 
 A continuación vamos a introducir una serie de ejemplos para conocer la sintaxis de este lenguaje. Para empezar vamos a introducir los tipos de encabezados que hay.
 
 ```
-      \# Encabezado de tipo h1.
+      # Encabezado de tipo h1.
+      
+      ## Encabezado de tipo h2.
+      
+      ### Encabezado de tipo h3.
 
+      #### Encabezado de tipo h4.
 
-      \#\#\# Encabezado de tipo h3.
+      ##### Encabezado de tipo h5.
 
-      \#\#\#\# Encabezado de tipo h4.
-
-      \#\#\#\#\# Encabezado de tipo h5.
-
-      \#\#\#\#\#\# Encabezado de tipo h6.
+      ###### Encabezado de tipo h6.
 ```
 
 \(Las \ se deben omitir realmente\).
@@ -32,10 +33,6 @@ Algo que se puede hacer y es muy interesante en caso de que queramos resaltar un
 _Cursiva  _\(\*Cursiva\*\)
 
 **Negrita **\(\*\*Negrita\*\*\)
-
-
-
-
 
 En caso de que se desee organizar diferentes elementos se puede utilizar tanto las listas ordenadas como las no ordenadas. La sintaxis de las listas no ordenadas sería ir añadiendo un '\*' al principio de cada elemento que queramos introudir en la lista, mientras que para una lista ordenadas hay que añadir un 'x.' al principio de cada elemento, donde cada x es el número del elemento dentro de esa lista.
 
