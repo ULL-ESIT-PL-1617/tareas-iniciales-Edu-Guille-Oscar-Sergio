@@ -29,8 +29,6 @@ También se puede introducir citas añadiento antes del texto un &gt;.
 
 Algo que se puede hacer y es muy interesante en caso de que queramos resaltar una palabra o una frase es ponerlo en cursiva \(\* Texto en medio \*\) o en negrita \(\*\* Texto en medio \*\*\).
 
-
-
 _Cursiva  _\(\*Cursiva\*\)
 
 **Negrita **\(\*\*Negrita\*\*\)
