@@ -8,16 +8,16 @@ A continuación vamos a introducir una serie de ejemplos para conocer la sintaxi
 
 ###### **Encabezados**
 
-* \#: Encabezado de tipo h1.
-* \#\#: Encabezado de tipo h2.
-* \#\#\#: Encabezado de tipo h3.
-* \#\#\#\#: Encabezado de tipo h4.
-* \#\#\#\#\#: Encabezado de tipo h5.
-* \#\#\#\#\#\#: Encabezado de tipo h6.
+* \# Encabezado de tipo h1.
+* \#\# Encabezado de tipo h2.
+* \#\#\# Encabezado de tipo h3.
+* \#\#\#\# Encabezado de tipo h4.
+* \#\#\#\#\# Encabezado de tipo h5.
+* \#\#\#\#\#\# Encabezado de tipo h6.
 
 ###### Citas
 
-* &gt;Esto es una cita. -Sergio García
+&gt; Esto es una cita. -Sergio García
 
 ###### Texto con énfasis
 
@@ -33,8 +33,19 @@ A continuación vamos a introducir una serie de ejemplos para conocer la sintaxi
   * \* Otro elemento de la lista
 
 * Ordenadas:
-  * 1.Primer elemento de la lista ordenada.
-  * 2.Otro elemento de la lista ordenada.
+
+  * 1. Primer elemento de la lista ordenada.
+  * 2. Otro elemento de la lista ordenada.
+
+###### Enlaces
+
+\[ Texto del enlace aquí \] \(URL "Título del enlace"\).
+
+###### Imágenes
+
+!\[ Texto alternativo \] \(URL "Título del enlace"\).
+
+###### 
 
 
 
