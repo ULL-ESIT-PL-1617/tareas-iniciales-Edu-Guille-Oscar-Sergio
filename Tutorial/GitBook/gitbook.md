@@ -8,7 +8,11 @@ La plataforma ha sido creada bajo código abierto que podemos consultar en los s
 
 #### Instalar GitBokk
 
-Gitbook esta implementado usando [NodeJS](https://nodejs.org/es/) \(Capítulo 2\) y podremos instalarlo usando NPM:
+Gitbook esta implementado usando [NodeJS](https://nodejs.org/es/) \(Capítulo 2\) y podremos instalarlo usando [NPM](https://www.npmjs.com/):
+
+```
+$npm install gitbook-cli --save-dev
+```
 
 
 
