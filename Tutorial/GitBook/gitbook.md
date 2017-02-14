@@ -14,7 +14,7 @@ Gitbook esta implementado usando [NodeJS](https://nodejs.org/es/) \(Capítulo 2\
 $npm install gitbook-cli --save-dev
 ```
 
-#### Como se utiliza GitBook 
+#### Como se utiliza GitBook
 
 Una vez tengamos instalado GitBook podremos empezar a crear nuestros libros que estarán alojadas en un repositorio de la plataforma.
 
@@ -22,6 +22,25 @@ Para **crear nuestro libro** tendremos que hacer:
 
 ```
 $gitbook init nombre_del_libro
+```
+
+Una vez nuestro libro haya sido creado en gitbook.com, necesitaremos añadir cierto contenido al mismo. Para ello podremos usar el editor de libros online o la línea de comandos. Si queremos editar nuestro libro desde la línea de comandos podemos usar Git para empujar el contenido.
+
+Cada libro creado en gitbook.com tiene una url HTTPS asociada con el siguiente formato:
+
+```
+https://git.gitbook.com/{{UserName}}/{{Book}}.git
+```
+
+Llegados a este punto tendremos que crear un nuevo repositorio git en el que se alojará nuestro libro. Crearemos una rama remota al repositorio de gitbook donde se encuentra nuestro libro para así poder empujar el contenido del mismo. Veamoslo en un ejemplo:
+
+```
+touch README.md SUMMARY.md
+git init
+git add README.md SUMMARY.md
+git commit -m "first commit"
+git remote add gitbook https://git.gitbook.com/{{UserName}}/{{Book}}.git
+git push -u -f gitbook master
 ```
 
 Esto nos creará una carpeta con el nombre de nuestro libro en la que se encuentran todos los ficheros MarkDown del mismo. También podremos crear un libro desde la propia página web de [Gitbook](https://www.gitbook.com/) y hacer un 'clone' para tenerlo en local. Tras esto tendremos que entrar en dicha carpeta y especificar las dependencias de nuestro proyecto, para ello usaremos:
