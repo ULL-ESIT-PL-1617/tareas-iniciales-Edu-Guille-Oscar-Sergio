@@ -44,5 +44,17 @@ Para ello, debemos especificar:
 * La opción **-s**, permite que Pandoc añada plantillas y cabeceras al nuevo fichero creado.
 * La opción **-o**, nos permite mandar la salida a un determinado fichero y no a la salida estándar.
 
+#### **Ejemplos:**
+
+```
+pandoc nombreFicheroEntrada -f formatoEntrada -t formatoSalida -s -o nombreficheroSalida
+```
+
+Ejemplo de uso para un fichero ejemplo test.md y que se quiere pasar a html:
+
+```
+pandoc markdown.md -f markdown -t HTML -s -o fichero.html
+```
+
 
 
