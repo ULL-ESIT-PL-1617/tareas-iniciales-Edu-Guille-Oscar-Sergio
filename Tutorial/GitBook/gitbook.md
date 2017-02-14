@@ -24,6 +24,8 @@ Para **crear nuestro libro** tendremos que hacer:
 $gitbook init nombre_del_libro
 ```
 
+Esto nos creará una carpeta con el nombre de nuestro libro en la que se encuentran todos los ficheros MarkDown del mismo. También podremos crear un libro desde la propia página web de [Gitbook](https://www.gitbook.com/) y hacer un 'clone' para tenerlo en local.
+
 Una vez nuestro libro haya sido creado en gitbook.com, necesitaremos añadir cierto contenido al mismo. Para ello podremos usar el editor de libros online o la línea de comandos. Si queremos editar nuestro libro desde la línea de comandos podemos usar Git para empujar el contenido.
 
 Cada libro creado en gitbook.com tiene una url HTTPS asociada con el siguiente formato:
