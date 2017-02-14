@@ -47,6 +47,8 @@ git push -u -f gitbook master
 
 #### Qué son las Gh-Pages
 
+Se trata de un modulo de dependencias que nos permite publicar sobre la rama gh-pages. Para utilizarla deberemos de seguir una serie de pasos. En primer lugar tendremos que instalar dicho modulo.
+
 Esto nos creará una carpeta con el nombre de nuestro libro en la que se encuentran todos los ficheros MarkDown del mismo. También podremos crear un libro desde la propia página web de [Gitbook](https://www.gitbook.com/) y hacer un 'clone' para tenerlo en local. Tras esto tendremos que entrar en dicha carpeta y especificar las dependencias de nuestro proyecto, para ello usaremos:
 
 ```
