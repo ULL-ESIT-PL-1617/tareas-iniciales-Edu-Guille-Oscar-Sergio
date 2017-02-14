@@ -24,7 +24,7 @@ Para **crear nuestro libro** tendremos que hacer:
 $gitbook init nombre_del_libro
 ```
 
-Esto nos creará una carpeta con el nombre de nuestro libro en la que se encuentran todos los ficheros MarkDown del mismo. Tras esto tendremos que entrar en dicha carpeta y especificar las dependencias de nuestro proyecto, para ello usaremos:
+Esto nos creará una carpeta con el nombre de nuestro libro en la que se encuentran todos los ficheros MarkDown del mismo. También podremos crear un libro desde la propia página web de Gitbook y hacer un 'clone' para tenerlo en local. Tras esto tendremos que entrar en dicha carpeta y especificar las dependencias de nuestro proyecto, para ello usaremos:
 
 ```
 $npm init -y
@@ -39,4 +39,8 @@ $npm install gh-pages --save-dev
 ```
 
 La opción --save-dev indica que se trata de una dependencia de desarrollo de la aplicación. Se cambia el contenido del package.json y se indica la nueva dependencia de nuestro proyecto. Por otro lado tendremos que tener un fichero node-modules con nuestros modulos, este fichero no tendrá que añadirse al repositorio.
+
+
+
+
 
