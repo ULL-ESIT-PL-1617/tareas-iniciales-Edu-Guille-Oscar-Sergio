@@ -32,3 +32,11 @@ $npm init -y
 
 Una vez ejecutamos el comando, el fichero [package.json](https://docs.npmjs.com/files/package.json) en el que se especifican las dependencias de nuestro proyecto, este fichero tiene que estar en toda librería o aplicación de nodejs. La filosofia de node es instalar todas las librerías en el directorio local del proyecto para así evitar problemas de compatibilidad de versiones entre distintas máquinas cuando traslademos nuestro proyecto.
 
+Una vez llegados a este punto tendremos que instalar gh-pages, para ello ejecutaremos:
+
+```
+$npm install gh-pages --save-dev
+```
+
+La opción --save-dev indica que se trata de una dependencia de desarrollo de la aplicación. Se cambia el contenido del package.json y se indica la nueva dependencia de nuestro proyecto.
+
