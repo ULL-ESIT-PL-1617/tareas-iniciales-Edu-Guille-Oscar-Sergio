@@ -24,5 +24,11 @@ Para **crear nuestro libro** tendremos que hacer:
 $gitbook init nombre_del_libro
 ```
 
-Esto nos creará una carpeta con el nombre de nuestro libro en la que se encuentran todos los ficheros MarkDown del mismo.
+Esto nos creará una carpeta con el nombre de nuestro libro en la que se encuentran todos los ficheros MarkDown del mismo. Tras esto tendremos que entrar en dicha carpeta y especificar las dependencias de nuestro proyecto, para ello usaremos:
+
+```
+$npm init -y
+```
+
+
 
