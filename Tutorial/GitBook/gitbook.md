@@ -18,3 +18,11 @@ $npm install gitbook-cli --save-dev
 
 Una vez tengamos instalado GitBook podremos empezar a crear nuestros libros que estarán alojadas en un repositorio de la plataforma.
 
+Para **crear nuestro libro** tendremos que hacer:
+
+```
+$gitbook init nombre_del_libro
+```
+
+Esto nos creará una carpeta con el nombre de nuestro libro en la que se encuentran todos los ficheros MarkDown del mismo.
+
