@@ -38,5 +38,5 @@ Una vez llegados a este punto tendremos que instalar gh-pages, para ello ejecuta
 $npm install gh-pages --save-dev
 ```
 
-La opción --save-dev indica que se trata de una dependencia de desarrollo de la aplicación. Se cambia el contenido del package.json y se indica la nueva dependencia de nuestro proyecto.
+La opción --save-dev indica que se trata de una dependencia de desarrollo de la aplicación. Se cambia el contenido del package.json y se indica la nueva dependencia de nuestro proyecto. Por otro lado tendremos que tener un fichero node-modules con nuestros modulos, este fichero no tendrá que añadirse al repositorio.
 
