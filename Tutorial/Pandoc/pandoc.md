@@ -10,16 +10,15 @@ El funcionamiento de Pandoc es bastante sencillo. Se le pasa al programa un fich
 
 Pandoc puede convertir los siguientes formatos de entrada a los consiguientes de salida, cualquier combinación de éstos es posible gracias a ésta aplicación
 
-**Entrada**:                                                                                  **Salida**:
+**Entrada**:                                                                                                                
 
-* MarkDown                                                     - HTML y todos sus formatos      
-* reStructuredText                                           - Microsoft Word y sus formatos
-* textile                                                             - OpenOffice/LibreOffice
-* HTML                                                             - Ebooks
-* DocBook                                                        - Formatos de documentación \(DocBook...\)
-* LaTeX                                                             - InDesign ICML
-* MediaWiki markup                                        - OPML
-* TWiki markup                                                - LaTeX y sus formatos
+* reStructuredText                                          
+* textile                                                              
+* HTML                                                              
+* DocBook                                                         
+* LaTeX                                                             
+* MediaWiki markup                                        
+* TWiki markup                                                - 
 * OPML                                                             - PDF
 * Emacs Org-Mode                                          - Lenguajes de marcado \(Markdown, MediaWiki markup...\)
 * Txt2Tags
@@ -27,6 +26,19 @@ Pandoc puede convertir los siguientes formatos de entrada a los consiguientes de
 * Libre Office ODT
 * EPUB
 * Haddock markup
+
+**Salida:**
+
+* HTML y todos sus formatos 
+* Microsoft Word y sus formatos
+* OpenOffice/LibreOffice
+* Ebooks
+* Formatos de documentación \(DocBook...\)
+* InDesign ICML
+* OPML
+* LaTeX y sus formatos
+* PDF
+* Lenguajes de marcado \(Markdown, MediaWiki markup...\)
 
 ### Instalación y uso
 
