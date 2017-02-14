@@ -46,11 +46,13 @@ Para ello, debemos especificar:
 
 #### **Ejemplos:**
 
+Formato para la ejecución del comando:
+
 ```
 pandoc nombreFicheroEntrada -f formatoEntrada -t formatoSalida -s -o nombreficheroSalida
 ```
 
-Ejemplo de uso para un fichero ejemplo test.md y que se quiere pasar a html:
+Ejemplo de uso para un fichero ejemplo **test.md** y que se quiere pasar a **html**:
 
 ```
 pandoc test.md -f markdown -t html -s -o test.html
