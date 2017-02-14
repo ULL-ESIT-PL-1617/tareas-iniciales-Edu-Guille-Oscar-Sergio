@@ -10,7 +10,7 @@ El funcionamiento de Pandoc es bastante sencillo. Se le pasa al programa un fich
 
 Pandoc puede convertir los siguientes formatos de entrada a los consiguientes de salida, cualquier combinación de éstos es posible gracias a ésta aplicación
 
-**Entrada**:                                                                                                                
+**Entrada**:
 
 * reStructuredText                                          
 * textile                                                              
@@ -18,9 +18,9 @@ Pandoc puede convertir los siguientes formatos de entrada a los consiguientes de
 * DocBook                                                         
 * LaTeX                                                             
 * MediaWiki markup                                        
-* TWiki markup                                                - 
-* OPML                                                             - PDF
-* Emacs Org-Mode                                          - Lenguajes de marcado \(Markdown, MediaWiki markup...\)
+* TWiki markup                                                
+* OPML                                                             
+* Emacs Org-Mode                                          
 * Txt2Tags
 * Microsoft Word docx
 * Libre Office ODT
