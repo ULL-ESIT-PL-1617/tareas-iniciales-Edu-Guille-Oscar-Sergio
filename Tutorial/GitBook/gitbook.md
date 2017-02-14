@@ -14,5 +14,9 @@ Gitbook esta implementado usando [NodeJS](https://nodejs.org/es/) \(Capítulo 2\
 $npm install gitbook-cli --save-dev
 ```
 
+#### Como se utiliza GitBook
+
+Una vez tengamos instalado GitBook podremos empezar a crear nuestros libros que serán alojadas en un repositorio de la plataforma.
+
 
 
