@@ -53,7 +53,7 @@ pandoc nombreFicheroEntrada -f formatoEntrada -t formatoSalida -s -o nombrefiche
 Ejemplo de uso para un fichero ejemplo test.md y que se quiere pasar a html:
 
 ```
-pandoc markdown.md -f markdown -t HTML -s -o fichero.html
+pandoc test.md -f markdown -t html -s -o test.html
 ```
 
 
