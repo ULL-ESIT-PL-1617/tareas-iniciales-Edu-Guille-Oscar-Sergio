@@ -30,5 +30,5 @@ Esto nos creará una carpeta con el nombre de nuestro libro en la que se encuent
 $npm init -y
 ```
 
-Una vez ejecutamos el comando, el fichero [package.json](https://docs.npmjs.com/files/package.json) en el que se especifican las dependencias de nuestro proyecto. La filosofia de node es instalar todas las librerias en el directorio local del proyecto para así evitar problemas de compatibilidad de versiones entre distintas máquinas cuando traslademos nuestro proyecto.
+Una vez ejecutamos el comando, el fichero [package.json](https://docs.npmjs.com/files/package.json) en el que se especifican las dependencias de nuestro proyecto, este fichero tiene que estar en toda librería o aplicación de nodejs. La filosofia de node es instalar todas las librerias en el directorio local del proyecto para así evitar problemas de compatibilidad de versiones entre distintas máquinas cuando traslademos nuestro proyecto.
 
