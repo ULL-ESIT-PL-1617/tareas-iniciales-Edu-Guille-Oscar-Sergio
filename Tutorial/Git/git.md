@@ -132,7 +132,43 @@ Desde esta aplicación se puede manejar de forma gráfica nuestros repositorios,
 
 Una vez creada nuestra cuenta, debemos sincronizar nuestro equipo local con nuestra cuenta de GitHub. Para ello debemos ejecutar en una terminal el siguiente comando para generar las claves privadas y públicas:
 
-ssh-keygen -t dsa
+`ssh-keygen -t rsa`
 
+Este comando, nos generará una clave privada y otra pública, en nuestro directorio /.ssh .Una vez tengamos las claves generadas, añadimos la clave pública a nuestra configuración SSH en GitHub. Para ello, accedemos a nuestro directorio /.shh y copiamos el contenido de nuestro fichero id\_rsa.pub. A continuación, entramos en nuestro perfil de GitHub y nos dirigimos al apartado de **Settings**. Dentro de Settings, entramos en el subapartado de SSH and GPG keys. Es en éste último apartado donde debemos copiar nuestra clave pública y el nombre con el que queramos guardar nuestra máquina.
 
+Por lo tanto el camino completo sería: **Perfil -&gt; Settings -&gt; SSH and GPG keys**
+
+![](/assets/keygen.png)
+
+# Hub
+
+---
+
+Hub es una herramienta de línea de comandos que implementa funcionalidades adicionales a las que proporciona git, con el fin de ampliarlo y darle más utilidades. Está completamente integrado con git, por lo que puedes ejecutar sus funcionalidades escribiendo **git comando-a-realizar.**
+
+Su instalación es sencilla ya que se puede instalar a través de **brew:**
+
+```
+brew install hub
+```
+
+##### **Funcionalidades a destacar**
+
+```
+git create [nombre] [-p] [-d descripición] [-h páginadeinicio]
+```
+
+Crea un repositorio público en la cuenta actual de GitHub y añade el remoto origin.
+
+```
+git browse [-u] [[usuario/]repositorio] [subpágina]
+```
+
+Abre la página del repositorio en GitHub en el navegador por defecto del sistema.
+
+```
+git compare [-u] [usuario] [[comienzo...]final]
+```
+
+Abre una vista informativa de GitHub en el navegador por defecto. Comienzo y final marcan el rango de historia en el cual se quiere consultar la información. 
 
