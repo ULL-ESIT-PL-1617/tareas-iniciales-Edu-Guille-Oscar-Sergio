@@ -120,5 +120,7 @@ A continuación se adjunta el enlace que  lleva directamente a la creación de u
 
 [Crea tu cuenta de GitHub aquí](https://github.com/join?source=header-home)
 
+Una vez creada la cuenta podremos incluir todos nuestros repositorios desde la página web de GitHub y empezar a trabajar con ellos clonándolos en una consola por ejemplo.
 
+Otra alternativa para manejar todos nuestros repositorios con sus archivos es instalar la aplicación de escritorio de Github, disponible para Windows y Mac. Además también existen versiones para los usuarios de Linux en forma de software libre.
 
