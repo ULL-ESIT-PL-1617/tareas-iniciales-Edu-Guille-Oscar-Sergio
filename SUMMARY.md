@@ -1,6 +1,6 @@
-# __Summary__    
+# **Summary**
 
-### Capítulos  
+### Capítulos
 
 * [Capítulo 0: Introducción](README.md)
 * [Capítulo 1: Git](Tutorial/Git/git.md)
@@ -9,3 +9,9 @@
 * [Capítulo 4: GitHub Pages](Tutorial/gh-pages/gh-pages.md)
 * [Capítulo 5: GitBook](Tutorial/GitBook/gitbook.md)  
 * [Capítulo 6: Pandoc](Tutorial/Pandoc/pandoc.md)
+* [Capítulo 7: Herramientas útiles](/Tutorial/Herramientas útiles/herraminetasÚtiles.md)
+
+
+
+
+
