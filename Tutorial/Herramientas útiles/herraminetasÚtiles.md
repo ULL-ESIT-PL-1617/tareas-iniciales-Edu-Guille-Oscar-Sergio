@@ -12,5 +12,5 @@ Atom es un editor de texto multiplataforma que tiene soporte para plugins escrit
 * **Varios paneles: **podremos dividir la interfaz de Atom en varios paneles para comparar y editar código.
 * **Encontrar y reemplazar: **buscar, ver y reemplazar texto mientras se escribe en un archivo o en todos sus proyectos.
 
-Por último, cabe destacar que Atom es un programa de fuente abierta y es posible participar en su desarrollo a través de plataformas como GitHub, Discuss y Slack
+Por último, cabe destacar que Atom es un programa de fuente abierta y es posible participar en su desarrollo a través de plataformas como GitHub, Discuss y Slack.
 
