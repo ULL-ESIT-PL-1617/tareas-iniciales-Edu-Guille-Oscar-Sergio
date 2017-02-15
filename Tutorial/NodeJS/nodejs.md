@@ -23,9 +23,9 @@ $ npm install npm@latest -g
 $ npm --para comprobar si está instalado
 ```
 
-Hay dos formas de instalar módulos en NPM: de forma global o de forma local. Es importante saber cómo funcionan porque dependiendo de las necesidades del programador, conviene utilizar una u otra. La diferencia básica radica en que hay ciertos módulos que permiten ser utilizados mediante la línea de comandos desde cualquier lugar del sistema de archivos. La instalación es exactamente igual que la local, pero añadiendo la opción -g. 
+Hay dos formas de instalar módulos en NPM: de forma global o de forma local. Es importante saber cómo funcionan porque dependiendo de las necesidades del programador, conviene utilizar una u otra. La diferencia básica radica en que hay ciertos módulos que permiten ser utilizados mediante la línea de comandos desde cualquier lugar del sistema de archivos. La instalación es exactamente igual que la local, pero añadiendo la opción `-g`.
 
-Con la instalación local, el módulo se instalará localmente en el proyecto, en una carpeta llamada _node\_modules_, que se crea automáticamente cuando instalamos nuestro primer módulo:
+Con la instalación local, el módulo se instalará localmente en el proyecto, en una carpeta llamada `node_modules`, que se crea automáticamente cuando instalamos nuestro primer módulo:
 
 ```
 $ npm install [nombre-modulo] --instalacion
@@ -38,7 +38,36 @@ Para utilizar los módulos, desde una aplicación NodeJS, creamos una variable p
 var modulo = require('modulo');
 ```
 
-Una tarea fundamental para trabajar con NPM es conocer el archivo _package.json_. Evita instalar módulos uno a uno ya que los descarga de forma automática, facilita la instalación de nuestra aplicación a otros desarrolladores y permite almacenar todos los ficheros y documentación de una determinada aplicación en un solo lugar. Así, la estructura de un proyecto NodeJS se compondría de los ficheros de código fuente, el directorio _node\_modules_ y el archivo _package.json_. 
+Una tarea fundamental para trabajar con NPM es conocer el archivo `package.json`. Evita instalar módulos uno a uno ya que los descarga de forma automática, facilita la instalación de nuestra aplicación a otros desarrolladores y permite almacenar todos los ficheros y documentación de una determinada aplicación en un solo lugar. Así, la estructura de un proyecto NodeJS se compondría de los ficheros de código fuente, el directorio `node_modules` y el archivo `package.json`.
+
+```
+{
+    "name": "app",
+    "version": "2.77.02",
+    "dependencies": {
+        "modulo": "version",
+        "modulo2": "version"
+    }
+}
+```
+
+Esta es la sintaxis más sencilla de un archivo `package.json`. Desde la raíz de nuestro proyecto, ejecutaríamos el siguiente comando y se instalarían automáticamente los módulos especificados:
+
+```
+$ npm install
+```
+
+Esto tiene otra ventaja importante, y es que no haría falta copiar el contenido de la carpeta `node_modules`, porque las dependencias ya estarían incluidas en el `package.json`. 
+
+
+
+
+
+
+
+
+
+
 
 
 
