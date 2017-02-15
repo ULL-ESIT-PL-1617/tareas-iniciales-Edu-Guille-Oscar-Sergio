@@ -16,7 +16,7 @@ Es un software de control de versiones, se creo pensando en la eficiencia y la c
 apt-get install git
 ```
 
-
+###### 
 
 ###### Distribución basada en Fedora
 
