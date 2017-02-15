@@ -152,7 +152,7 @@ Su instalación es sencilla ya que se puede instalar a través de **brew:**
 brew install hub
 ```
 
-Alguna de sus funcionalidades más interesantes son:
+##### **Funcionalidades a destacar**
 
 ```
 git create [nombre] [-p] [-d descripición] [-h páginadeinicio]
@@ -170,5 +170,5 @@ Abre la página del repositorio en GitHub en el navegador por defecto del sistem
 git compare [-u] [usuario] [[comienzo...]final]
 ```
 
-
+Abre una vista informativa de GitHub en el navegador por defecto. Comienzo y final marcan el rango de historia en el cual se quiere consultar la información. 
 
