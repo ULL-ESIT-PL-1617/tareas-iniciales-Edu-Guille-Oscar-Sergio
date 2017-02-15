@@ -45,9 +45,13 @@ git remote add gitbook https://git.gitbook.com/{{UserName}}/{{Book}}.git
 git push -u -f gitbook master
 ```
 
-#### Qué son las Gh-Pages
+#### 
 
-Se trata de un modulo de dependencias que nos permite publicar sobre la rama gh-pages. Para utilizarla deberemos de seguir una serie de pasos. En primer lugar tendremos que instalar dicho modulo.
+#### 
+
+#### 
+
+#### Se trata de un modulo de dependencias que nos permite publicar sobre la rama gh-pages. Para utilizarla deberemos de seguir una serie de pasos. En primer lugar tendremos que instalar dicho modulo.
 
 ```
 $npm install gh-pages --save-dev

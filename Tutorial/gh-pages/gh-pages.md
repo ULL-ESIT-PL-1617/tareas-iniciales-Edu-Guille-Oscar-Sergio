@@ -49,5 +49,17 @@ La integración entre estos dos servicios nos permite seleccionar una plantilla 
 
 ---
 
+### EL MÓDULO GH-PAGES
+
+El módulo gh-pages es un módulo de npm \(Node Package Manager\) que permite automatizar la publicación de archivos en una rama gh-pages de un repositorio de GitHub \(o cualquier otra rama u otro servicio\). Para entender su forma de instalarlo y su funcionamiento, debemos saber previamente lo que soy los paquetes npm. Consultar el capítulo 2 para más información sobre esto.
+
+Para la instalación del módulo, introducimos el siguiente comando:
+
+$ npm install gh-pages --save-dev
+
+
+
+---
+
 Como ejemplo de uso de GitHub Pages, en la introducción de este libro se han incluido enlaces cuatro sitios web que han sido creados aprovechando esta herramienta. Son los sitios web de los usuarios que conforman este grupo de trabajo.
 
