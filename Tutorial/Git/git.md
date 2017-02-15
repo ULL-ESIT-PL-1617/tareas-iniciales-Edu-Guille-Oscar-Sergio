@@ -124,3 +124,9 @@ Una vez creada la cuenta podremos incluir todos nuestros repositorios desde la p
 
 Otra alternativa para manejar todos nuestros repositorios con sus archivos es instalar la aplicación de escritorio de Github, disponible para Windows y Mac. Además también existen versiones para los usuarios de Linux en forma de software libre.
 
+El siguiente enlace lleva a la página de descarga de GiHub Desktop:
+
+[Descarga GitHub Desktop](https://desktop.github.com/)
+
+Desde esta aplicación se puede manejar de forma gráfica nuestros repositorios, así como sus ramas y ficheros.
+
