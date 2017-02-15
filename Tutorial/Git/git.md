@@ -8,9 +8,7 @@ Es un software de control de versiones, se creo pensando en la eficiencia y la c
 
 ---
 
-#### Instalando en Linux
-
-###### Distribución basada en Debian \(Ubuntu, por ej\)
+##### Distribución basada en Debian \(Ubuntu, por ej\)
 
 ```
 apt-get install git
@@ -30,6 +28,14 @@ yum install git-core
 
 ```
 http://sourceforge.net/projects/git-osx-installer/
+```
+
+
+
+###### En Windows
+
+```
+https://git-scm.com/download/win
 ```
 
 
