@@ -24,13 +24,15 @@ yum install git-core
 
 ###### 
 
-###### En Mac
+##### En Mac
 
 ```
 http://sourceforge.net/projects/git-osx-installer/
 ```
 
-###### En Windows
+###### 
+
+##### En Windows
 
 ```
 https://git-scm.com/download/win
