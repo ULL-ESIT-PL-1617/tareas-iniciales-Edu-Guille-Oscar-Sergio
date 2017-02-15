@@ -1,0 +1,8 @@
+# NODEJS
+
+NodeJS es un entorno en tiempo de ejecución multiplataforma, de código abierto, pensado para funcionar en el lado del servidor pero no limitándose a ello. Está basado en el motor V8 de Javascript de Google, y por tanto sus ficheros de configuración y prácticamente cualquier forma de interactuar con él se hace mediante Javascript. Sabemos que Javascript es un lenguaje asíncrono: NodeJS utiliza de la misma manera entradas y salidas asíncronas que se ejecutan concurrentemente utilizando únicamente un hilo de ejecución. El resultado es un entorno de ejecución del lado del servidor que compila y ejecuta Javascript a velocidades muy altas.
+
+El motor V8 de Javascript de Google está diseñado para correr en un navegador y ejecutar el código de Javascript de una forma extremadamente rápida. De hecho, la velocidad de este motor a la hora de ejecutar se debe principalmente a que compila Javascript en código máquina nativo, en lugar de interpretarlo y ejecutarlo como bytecode. Posee un amplio conjunto de liberías que lo convierten en una herramienta muy completa.
+
+Ya hemos mencionado que Node trabaja con un único hilo de ejecución, encargado de organizar todo el flujo de trabajo, pero, ¿qué sucede si ese hilo se pone a realizar una tarea que lleva X tiempo y queda bloqueado? La respuesta es que esto nunca sucede, pues Node gestiona todas sus tareas de forma asíncrona. Delega todo el trabajo en lo que se llama un pool de threads, y una vez completado, este pool emitirá un evento que será recibido de nuevo por Node. Una función de callback se encarga de terminar de procesarlo. 
+
