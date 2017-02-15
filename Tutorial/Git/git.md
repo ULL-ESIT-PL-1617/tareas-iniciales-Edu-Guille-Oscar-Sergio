@@ -26,5 +26,3 @@ yum install git-core
 
 
 
-
-
