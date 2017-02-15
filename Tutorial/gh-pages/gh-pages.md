@@ -95,6 +95,27 @@ Además de estas, existen otras muchas opciones. Se puede consultar la documenta
 
 ### DESPLIEGUE DE LAS GITHUB PAGES
 
+El despliegue manual de las GitHub Pages es bastante sencillo una vez tenemos listos nuestros archivos en HTML, tal y como hemos visto. Es aún más sencillo cuando automatizamos el procedimiento aprovechando el módulo gh-pages. Sin embargo, lo normal es tener archivos escritos en lenguaje MarkDown \(consultar el capítulo 3 para más información\), que deberemos convertir a HTML utilizando una herramienta para ello, como puede ser Pandoc \(consultar el capítulo 6 para más información\). En este apartado vamos a ver otra herramienta más sencilla: GitBook \(consultar el capítulo 5 para más información\).
+
+Lo primero es tener instalada la interfaz de línea de comandos de GitBook:
+
+```
+$ npm install gitbook-cli -g
+```
+
+Teniendo nuestro repositorio creado, ya sea desde la web o desde la línea de comandos, y enlazado como remoto a nuestro repositorio local, podemos aprovechar las capacidades de GitBook para convertir nuestros archivos MarkDown en HTML. El procedimiento es muy sencillo:
+
+```
+$ gitbook build
+$ git checkout --orphan gh-pages
+```
+
+
+
+
+
+
+
 
 
 
