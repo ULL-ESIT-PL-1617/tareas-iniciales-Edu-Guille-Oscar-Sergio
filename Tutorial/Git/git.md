@@ -26,3 +26,16 @@ yum install git-core
 
 
 
+###### En Mac
+
+```
+http://sourceforge.net/projects/git-osx-installer/
+```
+
+
+
+  
+
+
+
+
