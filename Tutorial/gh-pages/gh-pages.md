@@ -49,5 +49,49 @@ La integración entre estos dos servicios nos permite seleccionar una plantilla 
 
 ---
 
+### EL MÓDULO GH-PAGES
+
+El módulo gh-pages es un módulo de npm \(Node Package Manager\) que permite automatizar la publicación de archivos en una rama gh-pages de un repositorio de GitHub \(o cualquier otra rama u otro servicio\). Para entender su forma de instalarlo y su funcionamiento, debemos saber previamente lo que soy los paquetes npm. Consultar el capítulo 2 para más información sobre esto.
+
+Para la instalación del módulo, introducimos el siguiente comando:
+
+```
+$ npm install gh-pages --save-dev
+```
+
+A continuación, tendremos que crear un fichero que ponga en funcionamiento el módulo. La sintaxis de este fichero es bastante sencilla y se basa principalmente en el uso de la función _publish_ del módulo gh-pages. Veamos un ejemplo en un fichero _deploy.js_:
+
+```
+var gh-pages = require('gh-pages');
+var path = require('path');
+
+gh-pages.publish(path.join(__dirname, 'docs'), {
+    branch: master,
+    //add: true,
+    repo: 'https://github.com/ULL-ESIT-PL-1617/tareas-iniciales-Edu-Guille-Oscar-Sergio.git',
+    //branch: master,
+    remote: 'github',
+    user: {
+        //user options
+    }
+}, callback);
+```
+
+La llamada a la función publish creará una copia temporal del respositorio actual, creará una rama gh-pages local en caso de que no exista y copiará los archivos del directorio especificado \(en este caso 'docs'\). Hace un commit y por último un push al repositorio remoto. Si la rama gh-pages ya existe, llevará a cabo el mismo proceso pero actualizando la rama.
+
+Nótese que hemos especificado una serie de opciones a la función \(algunas están comentadas\). La opción _branch_ nos permite especificar la rama remota a la que vamos a subir los archivos, siendo por defecto la rama gh-pages. La opción _add_ evita que se eliminen archivos, permitiendo solo que se añadan nuevos o se modifiquen anteriores.
+
+La opción _repo_ es bastante interesante: permite especificar el repositorio remoto al que queremos hacer push de los archivos. Por defecto, se hará subirián al repositorio remoto especificado en los ficheros de configuración de git locales, pero en casos como el nuestro, que tenemos dos repositorios remotos para nuestro proyecto \(uno para GitHub y otro para GitBook\), conviene especificar a cuál queremos subir los archivos.
+
+La opción _remote_ permite especificar el nombre del remoto al que queremos publicar. Por defecto es origin, pero podríamos tener nuestros enlaces a repositorios remotos con otro nombre. Del mismo modo que utilizábamos la opción _repo_ para evitar problemas con adónde exactamente se subirían los archivos, podemos utilizar esta opción.
+
+Por último, la opción user permite especificar algunos parámetros de usuario como el nombre o el correo electrónico. A
+
+Además de estas, existen otras muchas opciones. Se puede consultar la documentación completa del módulo gh-pages en el siguiente enlace:
+
+[https://www.npmjs.com/package/gh-pages](https://www.npmjs.com/package/gh-pages "Documentación del módulo gh-pages en npmjs")
+
+---
+
 Como ejemplo de uso de GitHub Pages, en la introducción de este libro se han incluido enlaces cuatro sitios web que han sido creados aprovechando esta herramienta. Son los sitios web de los usuarios que conforman este grupo de trabajo.
 
