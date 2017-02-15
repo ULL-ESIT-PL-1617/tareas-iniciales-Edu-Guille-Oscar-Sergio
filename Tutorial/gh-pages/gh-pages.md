@@ -93,5 +93,9 @@ Además de estas, existen otras muchas opciones. Se puede consultar la documenta
 
 ---
 
-Como ejemplo de uso de GitHub Pages, en la introducción de este libro se han incluido enlaces cuatro sitios web que han sido creados aprovechando esta herramienta. Son los sitios web de los usuarios que conforman este grupo de trabajo.
+### DESPLIEGUE DE LAS GITHUB PAGES
+
+
+
+
 
