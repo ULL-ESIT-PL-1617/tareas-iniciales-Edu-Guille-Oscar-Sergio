@@ -57,21 +57,5 @@ Esta es la sintaxis más sencilla de un archivo `package.json`. Desde la raíz d
 $ npm install
 ```
 
-Esto tiene otra ventaja importante, y es que no haría falta copiar el contenido de la carpeta `node_modules`, porque las dependencias ya estarían incluidas en el `package.json`. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Esto tiene otra ventaja importante, y es que no haría falta copiar el contenido de la carpeta `node_modules`, porque las dependencias ya estarían incluidas en el `package.json`. Por esto, es una buena práctica añadir al fichero .gitignore la carpeta `node_modules`, ya con el `package.json` nos bastaría. 
 
