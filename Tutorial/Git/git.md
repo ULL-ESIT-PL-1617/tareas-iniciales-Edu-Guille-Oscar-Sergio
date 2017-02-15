@@ -130,3 +130,9 @@ El siguiente enlace lleva a la página de descarga de GiHub Desktop:
 
 Desde esta aplicación se puede manejar de forma gráfica nuestros repositorios, así como sus ramas y ficheros.
 
+Una vez creada nuestra cuenta, debemos sincronizar nuestro equipo local con nuestra cuenta de GitHub. Para ello debemos ejecutar en una terminal el siguiente comando para generar las claves privadas y públicas:
+
+ssh-keygen -t dsa
+
+
+
