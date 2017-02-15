@@ -8,6 +8,7 @@ Atom es un editor de texto multiplataforma que tiene soporte para plugins escrit
 
 * **Gestor de paquetes incorporado: **Atom nos permite buscar e instalar paquetes o incluso crear nuestros propios paquetes .
 * **Función de autocompletado: **Atom nos ayuda a escribir nuestro código con el sistema de predicción del palabra, de esta forma cuando empezamos a escribir una palabra, Atom nos recomendará una serie de palabras que concuerdan con lo que hemos escrito hasta el momento.
+* **Busador de archivos: **abrir un fichero o incluso un proyecto completo se convierte en una tarea facíl e intuitiva en Atom, esto es gracias a su buscador de archivos. Además podremos incluir el 'toggle tree view' para ver una serie de proyectos en formato árbol.
 
 
 
