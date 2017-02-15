@@ -28,5 +28,7 @@ Cloud 9 es un entorno de de desarrollo online que nos permite tanto editar códi
 
 ###### ¿Cómo crear una cuenta?
 
+Para crearnos una cuenta en Cloud 9 tendremos que dirigirnos a su pagina principal \([https://c9.io/](https://c9.io/)\)
+
 
 
