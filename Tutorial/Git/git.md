@@ -106,9 +106,13 @@ Unifica los comando fetch y merge en un único comando respecto a un repositorio
 git pull <Nombre-de-rama-remota>
 ```
 
-# Github
+# GitHub
 
 ---
 
 Github es una plataforma de desarrollo colaborativo para alojar proyectos utilizando el sistema de control de versiones Git. Utiliza un framework llamado Ruby on Rails creado por GitHub, Inc.
+
+El primer paso para acceder a GitHub
+
+
 
