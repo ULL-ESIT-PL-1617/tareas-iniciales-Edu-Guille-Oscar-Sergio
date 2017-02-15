@@ -16,7 +16,7 @@ apt-get install git
 
 ###### 
 
-###### Distribución basada en Fedora
+##### Distribución basada en Fedora
 
 ```
 yum install git-core
@@ -29,8 +29,6 @@ yum install git-core
 ```
 http://sourceforge.net/projects/git-osx-installer/
 ```
-
-
 
 ###### En Windows
 
