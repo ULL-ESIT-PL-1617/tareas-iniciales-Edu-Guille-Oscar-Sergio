@@ -43,7 +43,7 @@ https://git-scm.com/download/win
 Para añadir un fichero o varios al control de versiones
 
 ```
-git add [ <Nombre-del-fichero> o una expresión regular ] 
+git add [ <Nombre-del-fichero> o una expresión regular ] 
 ```
 
 Para confirmar los cambios realizados
@@ -60,23 +60,21 @@ git status
 
 Respecto a las ramas
 
-* Listar todas las ramas locales:                                          
+* Listar todas las ramas locales:
 
- `git branch`
+  `git branch`
 
-* Listar tanto las ramas locales como las remotas           
+* Listar tanto las ramas locales como las remotas
 
- `git branch -a`
+  `git branch -a`
 
-* Crear una nueva rama                                                       
+* Crear una nueva rama
 
   `git branch <Nombre-de-rama>`
 
-* Eliminar una rama                                                               
+* Eliminar una rama
 
- `git branch -d <Nombre-de-rama>`
-
-
+  `git branch -d <Nombre-de-rama>`
 
 Para irnos a una rama
 
