@@ -28,25 +28,9 @@ Cloud 9 es un entorno de de desarrollo online que nos permite tanto editar códi
 
 ###### ¿Cómo crear una cuenta?
 
-Para crearnos una cuenta en Cloud 9 tendremos que dirigirnos a su pagina principal \([https://c9.io/](https://c9.io/)\) y pulsar en el botón \_Sign Up, \_tras esto tendremos que seguir los pasos que seguir los pasos que nos da Cloud 9.
+Para crearnos una cuenta en Cloud 9 tendremos que dirigirnos a su pagina principal \([https://c9.io/](https://c9.io/)\) y pulsar en el botón Sign Up, tras esto tendremos que seguir los pasos que seguir los pasos que nos da Cloud 9.
 
 ###### ¿Cómo vincular nuestra cuenta a Git?
 
 Una vez hayamos iniciado sesión en Cloud 9 tendremos que dirigirnos a la pestaña de 'Settings', una vez dentro pulsaremos en 'Connected Serevices'  y pulsamos en el botón 'Conect' dentro de la pestaña de GitHub, tras esto nos pedirá permiso para acceder a nuestra cuenta, aceptamos y tendremos nuestra cuenta vinculada.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
