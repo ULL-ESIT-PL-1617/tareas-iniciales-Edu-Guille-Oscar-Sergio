@@ -1,6 +1,6 @@
 # NODEJS
 
-NodeJS es un entorno en tiempo de ejecución multiplataforma, de código abierto, pensado para funcionar en el lado del servidor pero no limitándose a ello. Está basado en el motor V8 de Javascript de Google, y por tanto sus ficheros de configuración y prácticamente cualquier forma de interactuar con él se hace mediante Javascript. Sabemos que Javascript es un lenguaje asíncrono: NodeJS utiliza de la misma manera entradas y salidas asíncronas que se ejecutan concurrentemente utilizando únicamente un hilo de ejecución. El resultado es un entorno de ejecución del lado del servidor que compila y ejecuta Javascript a velocidades muy altas.
+[NodeJS](https://nodejs.org/en/) es un entorno en tiempo de ejecución multiplataforma, de código abierto, pensado para funcionar en el lado del servidor pero no limitándose a ello. Está basado en el motor V8 de Javascript de Google, y por tanto sus ficheros de configuración y prácticamente cualquier forma de interactuar con él se hace mediante Javascript. Sabemos que Javascript es un lenguaje asíncrono: NodeJS utiliza de la misma manera entradas y salidas asíncronas que se ejecutan concurrentemente utilizando únicamente un hilo de ejecución. El resultado es un entorno de ejecución del lado del servidor que compila y ejecuta Javascript a velocidades muy altas.
 
 El motor V8 de Javascript de Google está diseñado para correr en un navegador y ejecutar el código de Javascript de una forma extremadamente rápida. De hecho, la velocidad de este motor a la hora de ejecutar se debe principalmente a que compila Javascript en código máquina nativo, en lugar de interpretarlo y ejecutarlo como bytecode. Posee un amplio conjunto de liberías que lo convierten en una herramienta muy completa.
 
@@ -14,7 +14,7 @@ Ya hemos mencionado que Node trabaja con un único hilo de ejecución, encargado
 
 ### NODE PACKAGE MANAGER
 
-El Node Package Manager, para abreviar NPM, es un gestor de módulos y aplicaciones para NodeJS, con el cual los desarrolladores pueden crear, compartir y reutilizar módulos en las aplicaciones que se ejecutan en este entorno. Los módulos son desde pequeños objetos hasta aplicaciones completas de un catálogo que ha llegado a ser muy extenso.
+El [Node Package Manager](https://www.npmjs.com), para abreviar NPM, es un gestor de módulos y aplicaciones para NodeJS, con el cual los desarrolladores pueden crear, compartir y reutilizar módulos en las aplicaciones que se ejecutan en este entorno. Los módulos son desde pequeños objetos hasta aplicaciones completas de un catálogo que ha llegado a ser muy extenso.
 
 Al instalar NodeJS, es bastante probable que NPM se instale también. En cualquier caso, se puede instalar o actualizar NPM con el siguiente comando:
 
@@ -57,5 +57,5 @@ Esta es la sintaxis más sencilla de un archivo `package.json`. Desde la raíz d
 $ npm install
 ```
 
-Esto tiene otra ventaja importante, y es que no haría falta copiar el contenido de la carpeta `node_modules`, porque las dependencias ya estarían incluidas en el `package.json`. Por esto, es una buena práctica añadir al fichero .gitignore la carpeta `node_modules`, ya con el `package.json` nos bastaría. 
+Esto tiene otra ventaja importante, y es que no haría falta copiar el contenido de la carpeta `node_modules`, porque las dependencias ya estarían incluidas en el `package.json`. Por esto, es una buena práctica añadir al fichero .gitignore la carpeta `node_modules`, ya con el `package.json` nos bastaría.
 
