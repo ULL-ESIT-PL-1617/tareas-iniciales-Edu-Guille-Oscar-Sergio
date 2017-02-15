@@ -45,9 +45,5 @@ git remote add gitbook https://git.gitbook.com/{{UserName}}/{{Book}}.git
 git push -u -f gitbook master
 ```
 
-#### 
-
-#### 
-
 
 
