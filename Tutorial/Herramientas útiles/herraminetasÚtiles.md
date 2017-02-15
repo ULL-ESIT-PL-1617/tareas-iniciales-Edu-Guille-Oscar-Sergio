@@ -4,6 +4,8 @@ En este capítulo nos disponemos a introducir ciertas herramientas de programaci
 
 #### Atom
 
+###### ¿Qué es?
+
 Atom es un editor de texto multiplataforma que tiene soporte para plugins escritos en Node.js y el cual ha sido desarrolado por GitHub. Entre sus principales características destacan:
 
 * **Gestor de paquetes incorporado: **Atom nos permite buscar e instalar paquetes o incluso crear nuestros propios paquetes .
@@ -18,11 +20,9 @@ Por último, cabe destacar que Atom es un programa de fuente abierta y es posibl
 
 Descargar e instalar desde[ https://github.com/atom/atom/releases/tag/v1.14.2 .](https://github.com/atom/atom/releases/tag/v1.14.2)
 
-
-
 #### Cloud 9
 
+
+
 Cloud 9 es un entorno de de desarrollo online que nos permite tanto editar código como administrar serevidores virtuales. Se trata de una de las mejores opciones que podremos elegir en cuanto a desarrollo en la nube. En escencia es un programa que se ejecuta sobre el navegador pero que a pesar de ello tiene las funcionalidades más destacadas de un IDE en el que además tenemos un entorno de trabajo real donde podemos poner nuestros programas en ejecución.
-
-
 
