@@ -132,7 +132,9 @@ Desde esta aplicación se puede manejar de forma gráfica nuestros repositorios,
 
 Una vez creada nuestra cuenta, debemos sincronizar nuestro equipo local con nuestra cuenta de GitHub. Para ello debemos ejecutar en una terminal el siguiente comando para generar las claves privadas y públicas:
 
-ssh-keygen -t dsa
+`ssh-keygen -t rsa`
+
+Este comando, nos generará una clave privada y otra pública, en nuestro directorio /.ssh .Una vez tengamos las claves generadas, añadimos la clave pública a nuestra configuración SSH en GitHub. Para ello, accedemos a nuestro directorio /.shh y copiamos el contenido de nuestro fichero id\_rsa.pub
 
 
 
