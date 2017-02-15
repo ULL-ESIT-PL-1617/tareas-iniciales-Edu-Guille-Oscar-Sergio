@@ -118,5 +118,5 @@ El primer paso para acceder a GitHub es crear una cuenta.
 
 A continuación se adjunta el enlace que  lleva directamente a la creación de una cuenta en GitHub:
 
-[https://github.com/join?source=header-home]("Crea tu cuenta de GitHub aquí")
+[Crea tu cuenta de GitHub aquí](https://github.com/join?source=header-home)
 
