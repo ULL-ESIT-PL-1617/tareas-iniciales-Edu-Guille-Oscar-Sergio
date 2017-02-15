@@ -79,11 +79,13 @@ gh-pages.publish(path.join(__dirname, 'docs'), {
 
 La llamada a la función publish creará una copia temporal del respositorio actual, creará una rama gh-pages local en caso de que no exista y copiará los archivos del directorio especificado \(en este caso 'docs'\). Hace un commit y por último un push al repositorio remoto. Si la rama gh-pages ya existe, llevará a cabo el mismo proceso pero actualizando la rama.
 
-Nótese que hemos especificado una serie de opciones a la función \(algunas están comentadas\). La opción _branch_ nos permite especificar la rama remota a la que vamos a subir los archivos, siendo por defecto la rama gh-pages. La opción _add_ evita que se eliminen archivos, permitiendo solo que se añadan nuevos o se modifiquen anteriores. 
+Nótese que hemos especificado una serie de opciones a la función \(algunas están comentadas\). La opción _branch_ nos permite especificar la rama remota a la que vamos a subir los archivos, siendo por defecto la rama gh-pages. La opción _add_ evita que se eliminen archivos, permitiendo solo que se añadan nuevos o se modifiquen anteriores.
 
-La opción _repo_ es bastante interesante: permite especificar el repositorio remoto al que queremos hacer push de los archivos. Por defecto, se hará subirián al repositorio remoto especificado en los ficheros de configuración de git locales, pero en casos como el nuestro, que tenemos dos repositorios remotos para nuestro proyecto \(uno para GitHub y otro para GitBook\), conviene especificar a cuál queremos subir los archivos. 
+La opción _repo_ es bastante interesante: permite especificar el repositorio remoto al que queremos hacer push de los archivos. Por defecto, se hará subirián al repositorio remoto especificado en los ficheros de configuración de git locales, pero en casos como el nuestro, que tenemos dos repositorios remotos para nuestro proyecto \(uno para GitHub y otro para GitBook\), conviene especificar a cuál queremos subir los archivos.
 
-La opción _remote_ permite especificar el nombre del remoto al que queremos publicar. Por defecto es origin, pero podríamos tener nuestros enlaces a repositorios remotos con otro nombre. Del mismo modo que utilizábamos la opción _repo_ para evitar problemas con adónde exactamente se subirían los archivos, podemos utilizar esta opción. 
+La opción _remote_ permite especificar el nombre del remoto al que queremos publicar. Por defecto es origin, pero podríamos tener nuestros enlaces a repositorios remotos con otro nombre. Del mismo modo que utilizábamos la opción _repo_ para evitar problemas con adónde exactamente se subirían los archivos, podemos utilizar esta opción.
+
+Por último, la opción user permite especificar algunos parámetros de usuario como el nombre o el correo electrónico.
 
 ---
 
