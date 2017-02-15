@@ -110,13 +110,7 @@ $ gitbook build
 $ git checkout --orphan gh-pages
 ```
 
+El primer comando nos generará una carpeta _book con los HTML generados. _El segundo crea la rama independiente gh-pages donde vamos a colocar esos ficheros. Eliminamos, estando en esa rama, todos los archivos MarkDown y movemos los HTML de la carpeta \_book a la carpeta raíz. Por último, publicamos el resultado en la rama gh-pages de GitHub. 
 
-
-
-
-
-
-
-
-
+A partir de aquí, tan solo hará falta tener configuradas las GitHub Pages del repositorio para que utilicen el contenido de la rama gh-pages. Poco tiempo después, el sitio web del repositorio debería funcionar correctamente.
 
