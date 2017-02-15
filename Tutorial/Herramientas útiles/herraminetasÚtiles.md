@@ -14,3 +14,11 @@ Atom es un editor de texto multiplataforma que tiene soporte para plugins escrit
 
 Por último, cabe destacar que Atom es un programa de fuente abierta y es posible participar en su desarrollo a través de plataformas como GitHub, Discuss y Slack.
 
+###### Como instalar Atom
+
+Descargar e instalar desde[ https://github.com/atom/atom/releases/tag/v1.14.2 .](https://github.com/atom/atom/releases/tag/v1.14.2)
+
+
+
+
+
