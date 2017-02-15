@@ -55,9 +55,18 @@ El módulo gh-pages es un módulo de npm \(Node Package Manager\) que permite au
 
 Para la instalación del módulo, introducimos el siguiente comando:
 
+```
 $ npm install gh-pages --save-dev
+```
 
+A continuación, tendremos que crear un fichero que ponga en funcionamiento el módulo. La sintaxis de este fichero es bastante sencilla y se basa principalmente en el uso de la función _publish_ del módulo gh-pages. Veamos un ejemplo en un fichero _deploy.js_:
 
+```
+var gh-pages = require('gh-pages');
+var path = require('path');
+
+gh-pages.publish(path.join(__dirname, 'docs'), callback);
+```
 
 ---
 
