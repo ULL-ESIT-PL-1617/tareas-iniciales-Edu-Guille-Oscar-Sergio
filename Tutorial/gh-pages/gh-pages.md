@@ -85,7 +85,11 @@ La opción _repo_ es bastante interesante: permite especificar el repositorio re
 
 La opción _remote_ permite especificar el nombre del remoto al que queremos publicar. Por defecto es origin, pero podríamos tener nuestros enlaces a repositorios remotos con otro nombre. Del mismo modo que utilizábamos la opción _repo_ para evitar problemas con adónde exactamente se subirían los archivos, podemos utilizar esta opción.
 
-Por último, la opción user permite especificar algunos parámetros de usuario como el nombre o el correo electrónico.
+Por último, la opción user permite especificar algunos parámetros de usuario como el nombre o el correo electrónico. A
+
+Además de estas, existen otras muchas opciones. Se puede consultar la documentación completa del módulo gh-pages en el siguiente enlace:
+
+[https://www.npmjs.com/package/gh-pages](https://www.npmjs.com/package/gh-pages "Documentación del módulo gh-pages en npmjs")
 
 ---
 
