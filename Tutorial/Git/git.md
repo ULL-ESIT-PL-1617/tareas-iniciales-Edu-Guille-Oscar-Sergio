@@ -39,7 +39,7 @@ https://git-scm.com/download/win
 ```
 
 
-Órdenes básicas
+###Órdenes básicas
 Para añadir un fichero o varios al control de versiones
 git add [ <Nombre-del-fichero> o una expresión regular ] 
 Para confirmar los cambios realizados
