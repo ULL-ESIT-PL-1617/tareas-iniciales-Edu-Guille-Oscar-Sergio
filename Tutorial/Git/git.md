@@ -112,7 +112,11 @@ git pull <Nombre-de-rama-remota>
 
 Github es una plataforma de desarrollo colaborativo para alojar proyectos utilizando el sistema de control de versiones Git. Utiliza un framework llamado Ruby on Rails creado por GitHub, Inc.
 
-El primer paso para acceder a GitHub
+El primer paso para acceder a GitHub es crear una cuenta.
 
+![](/assets/githubjoin.png)
 
+A continuación se adjunta el enlace que  lleva directamente a la creación de una cuenta en GitHub:
+
+[https://github.com/join?source=header-home](Crea tu cuenta de GitHub aquí)
 
