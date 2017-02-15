@@ -38,5 +38,75 @@ http://sourceforge.net/projects/git-osx-installer/
 https://git-scm.com/download/win
 ```
 
-hhg
+# Ordenes básicas
+
+Para añadir un fichero o varios al control de versiones
+
+```
+git add [ <Nombre-del-fichero> o una expresión regular ] 
+```
+
+Para confirmar los cambios realizados
+
+```
+git commit -m "Nombre del commit"
+```
+
+Mostrar el estado actual de la rama , con los cambios que hay que guardar
+
+```
+git status
+```
+
+Respecto a las ramas
+
+* Listar todas las ramas locales:                                          
+
+ `git branch`
+
+* Listar tanto las ramas locales como las remotas           
+
+ `git branch -a`
+
+* Crear una nueva rama                                                       
+
+  `git branch <Nombre-de-rama>`
+
+* Eliminar una rama                                                               
+
+ `git branch -d <Nombre-de-rama>`
+
+
+
+Para irnos a una rama
+
+```
+git checkout <Nombre-de-rama>
+```
+
+Para guardar los cambios desde la rama locar "origin" a la rama "Nombre-de-rama"
+
+```
+git push origin <Nombre-de-rama>
+```
+
+Para traer a local los cambios realizados en el repositorio remoto
+
+```
+git fetch
+```
+
+Mezcla en la rama en la que te encuentras parado, los cambios de la rama "Nombre-de-rama"
+
+```
+git merge <Nombre-de-rama>
+```
+
+Unifica los comando fetch y merge en un único comando respecto a un repositorio a la rama local
+
+```
+git pull <Nombre-de-rama-remota>
+```
+
+
 
