@@ -65,7 +65,14 @@ A continuación, tendremos que crear un fichero que ponga en funcionamiento el m
 var gh-pages = require('gh-pages');
 var path = require('path');
 
-gh-pages.publish(path.join(__dirname, 'docs'), callback);
+gh-pages.publish(path.join(__dirname, 'docs'), {
+    branch: master,
+    //add: true,
+    repo: 'https://example.com/other/repo.git',
+    //branch: master,
+    remote: 'github',
+    
+}, callback);
 ```
 
 ---
